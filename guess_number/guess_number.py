@@ -34,8 +34,7 @@ def main():
             else:
                 print(f"Congratulations! You guessed the number {secret_number} in {attempts} attempts.")
                 break
-        z=int(input("Do you want to continue? (1/0) "))       
-        
+        z=int(input("Do you want to continue? (1/0) "))
 
 # Run the main function
 if __name__ == "__main__":
