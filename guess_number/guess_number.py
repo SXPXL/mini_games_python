@@ -16,6 +16,7 @@ def get_player_guess(limit):
 # Main function to run the game
 def main():
     print("Welcome to Guess The Number!")
+
     z = 1
     while z == 1:
         attempts = 0  # To count number of attempts
