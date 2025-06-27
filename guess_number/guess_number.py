@@ -46,6 +46,7 @@ def main():
             else:
                 print(f"Congratulations! You guessed the number {secret_number} in {attempts} attempts.")
                 break
+<<<<<<< HEAD
 
         # Ask if they want to continue
         try:
@@ -53,6 +54,9 @@ def main():
         except ValueError:
             print("Invalid input. Exiting game.")
             break
+=======
+        z=int(input("Do you want to continue? (1/0) "))
+>>>>>>> 0bd41e817906697a0be1275cfd7b83b0063cc959
 
 # Run the main function
 if __name__ == "__main__":
